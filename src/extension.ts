@@ -27,10 +27,13 @@ function generateCleanArchitecture() {
       vscode.window.showErrorMessage("No feature name entered.");
       return;
     }
-
-    const featureFolder = path.join(libFolder, featureName);
+    const featuresFolder = path.join(libFolder, "features");
+    const featureFolder = path.join(libFolder, "features", featureName);
 
     try {
+      if (!fs.existsSync(featuresFolder)) {
+        fs.mkdirSync(featuresFolder);
+      }
       fs.mkdirSync(featureFolder);
     } catch (error) {
       vscode.window.showErrorMessage("Could not create feature folder.");
