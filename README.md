@@ -1,71 +1,31 @@
-# generate-clean-architecture README
+# Clean Architecture Generator for Flutter
 
-This is the README for your extension "generate-clean-architecture". After writing up a brief description, we recommend including the following sections.
+This VS Code extension generates a clean architecture folder structure for Flutter developers. 
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+To use this extension, type "Generate Clean Architecture" in the VS Code command palette. Then, a dialog box will appear asking for a feature name. Enter the feature name and press enter. The clean architecture folder structure will be generated in the lib folder of your project.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension requires VS Code and Flutter to be installed on your system. 
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+You can install this extension from the VS Code Marketplace. Search for "Clean Architecture Generator for Flutter" and click "Install". Alternatively, you can download the extension from the GitHub repository and install it manually.
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+We welcome contributions to this extension. Please fork the repository and submit a pull request with your changes.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License
 
-## Known Issues
+This extension is licensed under the MIT License. See the LICENSE file for more information.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Contact
 
-## Release Notes
+If you have any questions or issues with this extension, please contact us at djnkrd@gmail.com.
 
-Users appreciate release notes as you update your extension.
+## Author
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension was created by Kaushalya Roshan. You can reach out to me at djnkrd@gmail.com.
