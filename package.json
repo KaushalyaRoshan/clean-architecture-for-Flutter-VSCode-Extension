@@ -1,7 +1,7 @@
 {
   "name": "generate-clean-architecture",
   "displayName": "Generate clean architecture for Flutter",
-  "description": "",
+  "description": "This VS Code extension generates a clean architecture folder structure for Flutter developers.",
   "version": "1.0.0",
   "author": "Kaushalya Roshan",
   "engines": {
