@@ -24,7 +24,7 @@ This extension is licensed under the MIT License. See the LICENSE file for more 
 
 ## Release notes
 
-###1.0.0
+#### 1.0.0
 Initial release
 
 ## Author
