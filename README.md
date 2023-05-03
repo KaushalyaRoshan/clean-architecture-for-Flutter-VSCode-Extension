@@ -24,7 +24,16 @@ This extension is licensed under the MIT License. See the LICENSE file for more 
 
 ## Release notes
 
+#### 1.2.0
+
+Folder structure refactored
+
+#### 1.1.0
+
+`Features` folder added
+
 #### 1.0.0
+
 Initial release
 
 ## Author

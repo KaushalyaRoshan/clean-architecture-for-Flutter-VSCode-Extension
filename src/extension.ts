@@ -52,20 +52,28 @@ function generateCleanArchitecture() {
       vscode.window.showErrorMessage("Could not create feature subfolders.");
       return;
     }
+    const dataSourcesFolder = path.join(dataFolder, "data_sources");
+    const repositoriesImplFolder = path.join(dataFolder, "repositories_impl");
+    const dataModelsFolder = path.join(dataFolder, "models");
 
-    const dataSourcesFolder = path.join(dataFolder, "datasources");
-    const repositoriesFolder = path.join(dataFolder, "repositories");
-    const modelsFolder = path.join(domainFolder, "models");
-    const repositoriesImplFolder = path.join(domainFolder, "repositories_impl");
+    const entitiesFolder = path.join(domainFolder, "entities");
+    const repositoriesFolder = path.join(domainFolder, "repositories");
+    const useCasesFolder = path.join(domainFolder, "use_cases");
+
+
     const blocsFolder = path.join(presentationFolder, "blocs");
     const pagesFolder = path.join(presentationFolder, "pages");
     const widgetsFolder = path.join(presentationFolder, "widgets");
 
     try {
       fs.mkdirSync(dataSourcesFolder);
-      fs.mkdirSync(repositoriesFolder);
-      fs.mkdirSync(modelsFolder);
       fs.mkdirSync(repositoriesImplFolder);
+      fs.mkdirSync(dataModelsFolder);
+
+      fs.mkdirSync(entitiesFolder);
+      fs.mkdirSync(repositoriesFolder);
+      fs.mkdirSync(useCasesFolder);
+      
       fs.mkdirSync(blocsFolder);
       fs.mkdirSync(pagesFolder);
       fs.mkdirSync(widgetsFolder);
